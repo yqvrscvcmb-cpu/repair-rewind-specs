@@ -1,0 +1,64 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+/spk_debug_key.pem
+*.lock
+
+# Shipped by Lens Studio
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+ls-live-instance.json
+ls-live-instance.json.tmp
+# END Lens Studio managed Agents-Docs block
+
+# Repair Rewind local diagnostics and dependency caches
+.local/
+node_modules/
+*.log
+.env
+.env.*
+!.env.example
+
+# Regenerable editor snapshots and local build evidence
+/.virtual-scene.json
+/.clad/
+/changes/
+/tempAssetGen/
+/output/
+/*.jsonl
+
+# Raw demo captures belong in local output, not the source repository
+/*.mov
+/*.mp4
+/devpost/*.mov
+/devpost/*.mp4
+
+# Local signing material; preserve public certificate/source assets elsewhere
+/*.pem
+/*.key
+/*.p12
+/*.pfx
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Detailed native tool receipts remain local; publish the concise verification page.
+/devpost/native-build-report.md
+/devpost/native-build-manifest.json
+/devpost/project-story.md

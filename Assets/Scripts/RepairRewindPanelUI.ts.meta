@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/7f9607c7-0bba-4aad-95cc-2aa58c26ff9d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> f18f9e42-c78a-402e-bda9-8f6660693c9f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> f18f9e42-c78a-402e-bda9-8f6660693c9f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d0445a25-bedf-4e56-afcd-fd7af18c7e6d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d0445a25-bedf-4e56-afcd-fd7af18c7e6d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 671d6010-9ba5-4d88-8f3b-b4a07c0edfd3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    actionsRoot: false
+    markerRoot: false
+    textColor: false
+    typeScale: false
+    widthCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - actionsRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      markerRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      widthCm: !<float> 38.000000
+      typeScale: !<float> 1.000000
+      textColor: !<Vec4> {x: 1.000000, y: 0.960000, z: 0.870000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Repair Rewind · passive UIKit view"}'
+    - '// @input SceneObject actionsRoot {"hint":"Authored lower action panel"}'
+    - '// @input SceneObject markerRoot {"hint":"World-space parent for recorded label anchors"}'
+    - '// @input float widthCm = 38 {"hint":"Panel width in centimeters", "widget":"slider", "min":32, "max":44, "step":1}'
+    - '// @input float typeScale = 1 {"hint":"Type scale multiplier for the local preview", "widget":"slider", "min":0.9, "max":1.4, "step":0.05}'
+    - '// @input vec4 textColor = "{1,0.96,0.87,1}" {"hint":"Warm white text color", "widget":"color"}'

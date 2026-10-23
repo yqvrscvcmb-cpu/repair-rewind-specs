@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/4ae7ed02-3729-4baf-a9a0-fcb51e45489a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8c8561e6-13f0-426a-84d1-4a5555e05a25
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8c8561e6-13f0-426a-84d1-4a5555e05a25
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0834f80a-6abb-4a5a-859c-ceeddc8a0b14
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/0834f80a-6abb-4a5a-859c-ceeddc8a0b14>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 8ed2fab2-03a6-4141-8849-75f203eb9c46
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    evidenceScenario: false
+    runMouseEvidence: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - runMouseEvidence: false
+      evidenceScenario: repair-rewind-mouse
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input bool runMouseEvidence {"hint":"Temporary local mouse evidence run; keep false for normal Preview and serial LEAF runs"}'
+    - '// @input string evidenceScenario = "repair-rewind-mouse" {"hint":"Local evidence scenario ID; used only when runMouseEvidence is true"}'

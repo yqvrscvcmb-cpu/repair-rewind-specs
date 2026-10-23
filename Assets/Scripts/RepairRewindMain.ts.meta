@@ -1,0 +1,93 @@
+- !<AssetImportMetadata/99e137db-6089-46ba-b0c2-6bcf5f9c8bc4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5ed02d75-a272-4557-95bd-ddb54fa3ce68
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5ed02d75-a272-4557-95bd-ddb54fa3ce68
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ff0130b6-aadb-4e33-be27-70114f99aa5c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ff0130b6-aadb-4e33-be27-70114f99aa5c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 033bd439-3115-4ee6-90dc-6521758c2709
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    base: false
+    camera: false
+    cover: false
+    coverSlot: false
+    cueVolume: false
+    debugColliders: false
+    gear: false
+    gearSlot: false
+    guidance: false
+    material: false
+    motionSeconds: false
+    panel: false
+    ring: false
+    ringSlot: false
+    tray: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panel: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      cover: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ring: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gear: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      base: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tray: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      coverSlot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ringSlot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gearSlot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      guidance: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      material: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      motionSeconds: 1.600000
+      cueVolume: 0.450000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Repair Rewind · session orchestration"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 panel {"hint":"Passive UIKit panel component"}'
+    - '// @input SceneObject cover {"hint":"Vented cover semantic root"}'
+    - '// @input SceneObject ring {"hint":"Open retaining ring semantic root"}'
+    - '// @input SceneObject gear {"hint":"Toothed gear semantic root"}'
+    - '// @input SceneObject base {"hint":"Supporting base root"}'
+    - '// @input SceneObject tray {"hint":"Three-slot tray root"}'
+    - '// @input SceneObject coverSlot {"hint":"Cover tray destination"}'
+    - '// @input SceneObject ringSlot {"hint":"Ring tray destination"}'
+    - '// @input SceneObject gearSlot {"hint":"Gear tray destination"}'
+    - '// @input SceneObject guidance {"hint":"World-space recorded ghosts and arc parent"}'
+    - '// @input Asset.Material material {"hint":"Local imported vertex color material"}'
+    - '// @input Component.Camera camera {"hint":"Main perspective camera for offscreen hints"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float motionSeconds = 1.6 {"hint":"Seconds per lift or return, excluding pauses", "widget":"slider", "min":0.6, "max":4, "step":0.1}'
+    - '// @input float cueVolume = 0.45 {"hint":"Volume of local capture and confirmation cues", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @input bool debugColliders {"hint":"Show collider boundaries for inspection"}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,11 @@
+{
+  "name": "repair-rewind-specs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Explicit spatial disassembly memory for a SPECS Lens prototype",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+  },
+  "engines": {"node": ">=22.6.0"}
+}
