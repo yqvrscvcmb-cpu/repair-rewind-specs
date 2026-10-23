@@ -1,6 +1,6 @@
 # Repair Rewind — verification status
 
-This page describes the tested scope of the prototype as of 23 October 2026. Independent functional, fresh-import and final-video reviews passed within the bounds described below. Public delivery remains pending. This is not a hardware or human-acceptance certificate.
+This page describes the tested scope of the prototype as of 23 October 2026. Independent functional, fresh-import and final-video reviews passed within the bounds described below. The source and demonstration are public; final Devpost submission remains pending. This is not a hardware or human-acceptance certificate.
 
 ## Standalone session logic
 
@@ -42,11 +42,11 @@ The final video is **2:20**, with 4,200 frames at 30 fps, 1080 × 1920 pixels, E
 
 Independent review checked the final presentation timing, full decode and 21 sampled frames. Captions were legible in those samples, and completion and reset states were coherent. This was technical and sampled visual review, not a human listening test or inspection of every frame. Narration timing was checked against the edit and caption text; subjective audio quality remains unverified.
 
-## Public delivery still pending
+## Public delivery
 
-- Publication of the reviewed source and video, followed by anonymous-access checks.
-- Updating the existing Devpost draft with the final copy and verified links.
-- Owner-provided eligibility/declaration answers and final submission.
+- The reviewed [source](https://github.com/yqvrscvcmb-cpu/repair-rewind-specs) and [2:20 demonstration](https://www.youtube.com/watch?v=UUlTkr-c3A0) are public; anonymous access was checked on 23 October 2026.
+- The existing Devpost draft now contains the reviewed story, tagline, Preview image, verified links and technical answers.
+- Owner-provided eligibility and personal survey answers, final agreement and submission remain pending.
 
 The [design brief](design-brief.md) defines the intended experience. [Native acceptance](native-acceptance.md) lists behavior and edge cases. Detailed tool receipts and historical diagnostics are retained locally rather than shipped as public dependencies.
 

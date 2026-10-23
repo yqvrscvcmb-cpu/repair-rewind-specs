@@ -12,7 +12,7 @@ The first demonstration uses a clearly labelled simulated mechanical assembly wi
 
 Repair Rewind is a working Lens Studio Preview prototype for makers and repair learners. In the simulated cover, retaining ring and gear assembly, you record each part’s original place and sequence, then retrace those observations in reverse. Each return requires confirmation. Pause, Back and confirmed Reset make interruptions and mistakes recoverable; an edge cue helps you find a destination outside the current view.
 
-The saved project compiles in Lens Studio 5.24.1 and opens in the normal empty Ready state. Ten standalone tests cover the session engine; seven native scenarios cover interaction and recovery. A fresh source-only copy imported and compiled on the installed development host, then passed the core native scenario and all ten standalone tests. The reviewed 2:20 demonstration contains actual Preview footage, English narration and captions. See [verification status](devpost/verification.md) for the test provenance and limitations. Public repository and video links remain pending publication.
+The saved project compiles in Lens Studio 5.24.1 and opens in the normal empty Ready state. Ten standalone tests cover the session engine; seven native scenarios cover interaction and recovery. A fresh source-only copy imported and compiled on the installed development host, then passed the core native scenario and all ten standalone tests. The reviewed 2:20 demonstration contains actual Preview footage, English narration and captions. See [verification status](devpost/verification.md) for the test provenance and limitations. Public source: [GitHub](https://github.com/yqvrscvcmb-cpu/repair-rewind-specs). Watch the [2:20 demonstration](https://www.youtube.com/watch?v=UUlTkr-c3A0) with English captions.
 
 Open `Repair Rewind.esproj` and choose **SPECS 27 → Interactive → Sunlit Room**. Select a part, then choose **Remember & lift**. The prototype uses simulated parts and remembers only the current Lens session.
 
@@ -34,4 +34,4 @@ With Node.js 22.6 or later, run `npm test`. No npm dependencies are needed. Test
 
 Repair Rewind's original code was created during this challenge. The official SPECS Base Template and its libraries are disclosed in [third-party material](devpost/third-party.md). Planning uses the official [Devpost Learn pack](https://github.com/challengepost/learn-specs); native construction uses [Snap CLAD](https://github.com/lens-studio-devs/ls-extensions).
 
-Keep credentials, `.mcp.json`, local diagnostics, private portfolio content and camera captures out of the public repository. Nothing has been published or submitted by this setup.
+Keep credentials, `.mcp.json`, local diagnostics, private portfolio content and camera captures out of the public repository. The source and demonstration are public; the final hackathon submission remains pending.

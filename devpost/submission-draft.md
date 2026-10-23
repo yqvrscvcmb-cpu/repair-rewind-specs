@@ -1,6 +1,6 @@
 # Repair Rewind — submission copy draft
 
-Status: local proposed copy, not submitted or synchronized to Devpost. The existing Devpost draft contains an earlier work-in-progress story, preserved locally. Native functional review, fresh source import and technical review of the 2:20 demonstration have passed. Public delivery remains pending.
+Status: the reviewed project story, tagline, Preview image, verified links and technical answers were saved to the existing Devpost draft on 23 October 2026. Final submission remains pending. Native functional review, fresh source import and technical review of the 2:20 demonstration have passed. The source and video are public.
 
 ## Project name
 
@@ -58,10 +58,10 @@ This prototype uses simulated parts and memory within one Lens session. Real-wor
 
 ## Required links
 
-- Public repository: pending publication.
-- Public YouTube demonstration: reviewed 2:20 video, pending publication.
+- [Public repository](https://github.com/yqvrscvcmb-cpu/repair-rewind-specs).
+- [Public YouTube demonstration](https://www.youtube.com/watch?v=UUlTkr-c3A0), 2:20 with English captions.
 - Public Devpost project link: pending publication and access verification.
 
 ## Final-copy gate
 
-This copy reflects the reviewed native, import and video results. Keep the simulated-assembly and session-only-memory limitations visible in the video and description. Add only verified public links. Do not represent this local draft as an updated or submitted Devpost entry, or infer personal eligibility and agreement answers.
+This copy reflects the reviewed native, import and video results. The simulated-assembly and session-only-memory limitations remain visible in the video and saved description. The updated Devpost draft is not a submitted hackathon entry. Personal eligibility, survey and agreement answers must come from the owner.
