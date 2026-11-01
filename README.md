@@ -34,4 +34,4 @@ With Node.js 22.6 or later, run `npm test`. No npm dependencies are needed. Test
 
 Repair Rewind's original code was created during this challenge. The official SPECS Base Template and its libraries are disclosed in [third-party material](devpost/third-party.md). Planning uses the official [Devpost Learn pack](https://github.com/challengepost/learn-specs); native construction uses [Snap CLAD](https://github.com/lens-studio-devs/ls-extensions).
 
-Keep credentials, `.mcp.json`, local diagnostics, private portfolio content and camera captures out of the public repository. The source and demonstration are public; the final hackathon submission remains pending.
+Keep credentials, `.mcp.json`, local diagnostics, private portfolio content and camera captures out of the public repository. The source and demonstration are public; the Devpost submission was confirmed on 23 October 2026. This receipt is not a claim about eligibility, awards or jury evaluation.
