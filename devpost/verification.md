@@ -1,6 +1,6 @@
 # Repair Rewind — verification status
 
-This page describes the tested scope of the prototype as of 23 October 2026. Independent functional, fresh-import and final-video reviews passed within the bounds described below. The source and demonstration are public; final Devpost submission remains pending. This is not a hardware or human-acceptance certificate.
+This page describes the tested scope of the prototype as of 23 October 2026. Independent functional, fresh-import and final-video reviews passed within the bounds described below. The source and demonstration are public; the Devpost submission was confirmed on 23 October 2026. That receipt does not establish eligibility, judging outcome or hardware acceptance. This is not a hardware or human-acceptance certificate.
 
 ## Standalone session logic
 
